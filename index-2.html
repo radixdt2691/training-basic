@@ -202,14 +202,28 @@
         form.div {
         margin-bottom: 10px;
       }
-      input[type=text], input[type=email], input[type=date],input[type=datetime-local] ,select, textarea {
+      input[type=text], input[type=email], input[type=date],input[type=datetime-local],input[type=password],select, textarea {
         width: 50%;
         padding: 12px;
         border: 1px solid #ccc;
         border-radius: 4px;
         resize: vertical;
+        margin: 10px;
     }      
-    
+     input[type=file], input[type=range]
+    {
+        width: 50%;
+        padding: 12px;
+        resize: vertical;
+        margin: 10px;
+    }
+    input[type=color]
+    {
+        height: 40px;
+        width: 30%;
+        resize: vertical;
+        margin: 10px;  
+    }
     .gender{
         width: 55px;
     }
@@ -248,17 +262,17 @@
                 </ol>
             </div>
             <div class="new"  style="padding: 48px 55px;">
-                <ol>
-                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;list-style-type: square;">Orange</li>
-                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;list-style-type: square;">Pink</li>
-                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;list-style-type: square;">Purple</li>
+                <ol style="list-style: square;">
+                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Orange</li>
+                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Pink</li>
+                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Purple</li>
                 </ol>
             </div>
             <div class="new"  style="padding: 48px 55px;">
-                <ol>
-                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;list-style-type: circle;">Orange</li>
-                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;list-style-type: circle;">Pink</li>
-                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;list-style-type: circle;">Purple</li>
+                <ol style="list-style: circle;">
+                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Orange</li>
+                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Pink</li>
+                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Purple</li>
                 </ol>
             </div>
         </div>
