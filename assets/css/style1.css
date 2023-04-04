@@ -1,23 +1,66 @@
-/* Colors */
-/* .bg-head{
-    background-color: #F0EFEF;
+/* Reset Css */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
-.clr-red{
-    color: red;
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
 }
-.clr-content{
-    color:#1D1D1D;
+
+body {
+    line-height: 1;
 }
-.clr-para{
-    color:#414141;
-} */
-/* Position */
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
 .header {
-    position: fixed;
     width: 100%;
-    top: 0;
-    z-index: 99;
     background-color: #F0EFEF;
+}
+
+.hr-line {
+    color: #000000;
 }
 
 .heading {
@@ -25,13 +68,15 @@
     font-style: normal;
     font-weight: 700;
     font-size: 38px;
-    text-decoration: u;
+    text-decoration: underline;
     text-align: center;
     color: red;
+    line-height: 38px;
+    padding: 27px 484px;
 }
 
 .first-sec {
-    margin-top: 65px;
+    padding-top: 61px;
 }
 
 .second-sec {
@@ -66,6 +111,7 @@
     font-size: 20px;
     line-height: 30px;
     color: #414141;
+    padding-top: 11px;
 }
 
 .line {
@@ -85,7 +131,7 @@
     color: #D1D1D1;
 }
 
-.heading1 {
+.heading-1 {
 
     font-family: 'Arial';
     font-style: normal;
@@ -113,6 +159,7 @@
     font-size: 28px;
     line-height: 32px;
     color: #1D1D1D;
+    margin-top: 23px;
 }
 
 .heading-4 {
@@ -122,6 +169,7 @@
     font-size: 24px;
     line-height: 28px;
     color: #1D1D1D;
+    margin-top: 23px;
 }
 
 .heading-5 {
@@ -131,6 +179,7 @@
     font-size: 20px;
     line-height: 23px;
     color: #1D1D1D;
+    margin-top: 23px;
 }
 
 .heading-6 {
@@ -140,6 +189,8 @@
     font-size: 16px;
     line-height: 18px;
     color: #1D1D1D;
+    margin-top: 23px;
+    margin-bottom: 40px;
 }
 
 .link {
@@ -149,9 +200,9 @@
     font-size: 20px;
     line-height: 30px;
     text-align: center;
-    text-decoration-line: u;
+    text-decoration-line: underline;
     color: #1D1D1D;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 .para {
@@ -160,7 +211,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-    margin-top: 60px;
+    margin-top: 35px;
     color: #414141;
 }
 
@@ -173,10 +224,26 @@
     color: #FF0000;
 }
 
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mt-20 {
+    margin-top: 15px;
+}
+
+.mt-un {
+    margin-top: 0;
+}
+
 .imgg {
-    width: 425px;
-    height: 172px;
-    margin-top: 35px;
+
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 .heading-6-6 {
@@ -198,6 +265,23 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+}
+
+.button-new {
+    background: #FBA333;
+    width: 827px;
+    height: 60px;
+    line-height: 30px;
+    font-weight: 400;
+    border-radius: 0px;
+    border: 0px;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
     color: white;
