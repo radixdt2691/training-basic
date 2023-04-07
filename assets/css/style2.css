@@ -195,11 +195,10 @@ img {
 .p-10 {
     padding: 10px;
 }
-
-.py-5 {
-    padding: 5px;
+.px-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-
 .pt-60 {
     padding-top: 60px;
 }
