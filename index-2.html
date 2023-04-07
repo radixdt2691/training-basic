@@ -225,12 +225,12 @@
               <label for="name" class="font-weight-700 w-30"
                 >Select City:</label
               >
-              <select class="bg-input" name="city" id="city">
-                <option value="" selected>--Select City--</option>
-                <option value="">Ahmedabad</option>
-                <option value="">Ahmedabad</option>
-                <option value="">Ahmedabad</option>
-                <option value="">Ahmedabad</option>
+              <select class="bg-input h-unset" name="city" id="city">
+                <option selected><span>--Select City--</option>
+                <option>Ahmedabad</option>
+                <option>Vadodra</option>
+                <option>Surat</option>
+                <option>Rajkot</option>
               </select>
             </div>
             <div class="flex align-center gap-10 w-50">
@@ -249,8 +249,11 @@
               >
             </div>
             <div class="flex align-center gap-10 w-50">
-              <label for="name" class="font-weight-700 w-30">Folder:</label>
-              <input class="w-40" type="file" name="name" />
+                <span class="font-weight-700 w-30">Folder:</span>
+                <label class="custom-file-upload">
+                    <input type="file"/>
+                    Choose File
+                </label>
             </div>
             <div class="flex align-center gap-10 w-50">
               <label for="name" class="font-weight-700 w-30">Password:</label>

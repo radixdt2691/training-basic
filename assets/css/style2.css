@@ -87,6 +87,10 @@ img {
 .w-20{
     width: 10%;
 }
+/* Height */
+.h-unset{
+    height: unset;
+}
 /* Font Weight */
 
 .font-weight-700 {
@@ -324,7 +328,16 @@ td {
     color: #DADADA;
     font-family: 'Arial';
 }
-
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 3px 16px;
+    cursor: pointer;
+    background: #DADADA;
+}
 /* Button */
 
 .btn-submit, .btn-reset {
