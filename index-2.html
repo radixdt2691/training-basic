@@ -1,199 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML TUTORIAL</title>
-    <link rel="stylesheet" href="./assets/css/style2.css">
-</head>
-<body>
-    <header class="header">
-        <h1 class="heading">HTML TUTORIAL</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Basics-2</title>
+    <link rel="stylesheet" href="./assets/css/style2.css" />
+  </head>
+  <body>
+    <!-- Header Section Start -->
+    <header class="bg-primary">
+      <h1
+        class="txt-secondary font-38 txt-decoration-underline txt-align-center py-30"
+      >
+        HTML TUTORIAL
+      </h1>
     </header>
+    <!-- Header Section End-->
 
-     <section class="first-sec">
-        <div class="flex">
-            <p class="number">1)</p>
-            <div class="new" style="padding: 48px 0px;">
-                <ul>
-                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Red</li>
-                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Yellow</li>
-                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Green</li>
-                </ul>
+    <!-- List Section Start -->
+    <section class="list pt-30">
+      <div class="container">
+        <div class="flex gap-80 border-bottom-gray pt-60">
+          <p class="font-30 font-weight-700">1)</p>
+          <div class="flex gap-110">
+            <div class="order-list-1">
+              <ol class="list-style-alphabates">
+                <li class="font-24 lh-28 mb-11">Red</li>
+                <li class="font-24 lh-28 mb-11">Yellow</li>
+                <li class="font-24 lh-28 mb-11">Green</li>
+              </ol>
             </div>
-            <div class="new"  style="padding: 48px 55px;">
-                <ol type="I">
-                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Orange</li>
-                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Pink</li>
-                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Purple</li>
-                </ol>
+            <div class="order-list-2">
+              <ol class="list-style-roman">
+                <li class="font-24 lh-28 mb-11">Orange</li>
+                <li class="font-24 lh-28 mb-11">Pink</li>
+                <li class="font-24 lh-28 mb-11">Purple</li>
+              </ol>
             </div>
-            <div class="new"  style="padding: 48px 55px;">
-                <ol style="list-style: square;">
-                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Orange</li>
-                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Pink</li>
-                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Purple</li>
-                </ol>
+            <div class="unorder-list-1">
+              <ul class="list-style-square">
+                <li class="font-24 lh-28 mb-11">Orange</li>
+                <li class="font-24 lh-28 mb-11">Pink</li>
+                <li class="font-24 lh-28 mb-11">Purple</li>
+              </ul>
             </div>
-            <div class="new"  style="padding: 48px 55px;">
-                <ol style="list-style: circle;">
-                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Orange</li>
-                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Pink</li>
-                    <li class="heading-6-6" style="font-weight: 400;font-size: 24px;line-height: 28px;">Purple</li>
-                </ol>
+            <div class="unorder-list-2">
+              <ul class="list-style-circle">
+                <li class="font-24 lh-28 mb-11">Orange</li>
+                <li class="font-24 lh-28 mb-11">Pink</li>
+                <li class="font-24 lh-28 mb-11">Purple</li>
+              </ul>
             </div>
+          </div>
         </div>
-        <hr class="line">
-   </section>
-
-   <section>
-        <div class="flex">
-            <p class="number">2)</p>
-            <div class="new" style="padding: 58px 0px;">
-                <audio controls="">
-                    <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
-                </audio>
-            </div>
-        </div>
-        <hr class="line-1">
+      </div>
     </section>
+    <!-- List Section End -->
 
-    <section>
-        <div class="flex">
-            <p class="number">3)</p>
-            <div class="new" style="padding: 58px 0px;">
-                <video controls="">
-                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-                </audio>
-            </div>
+    <!-- Audio Section Start -->
+    <section class="audio">
+      <div class="container">
+        <div class="flex border-bottom-gray gap-29 align-center">
+          <p class="font-30 font-weight-700">2)</p>
+          <audio controls>
+            <source src="./assets/audio/sample-3s.mp3" type="audio/mpeg" />
+          </audio>
         </div>
-        <hr class="line-1">
+      </div>
     </section>
+    <!-- Audio Section End -->
 
-    <section>
-        <div class="flex">
-            <p class="number">4)</p>
-            <div class="new" style="padding: 58px 0px;">
-                <iframe class="frame" width="622" height="249" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"
-                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2965.0824050173574!2d-93.63905729999999!3d41.998507000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sWebFilings%2C+University+Boulevard%2C+Ames%2C+IA!5e0!3m2!1sen!2sus!4v1390839289319">
-            </iframe>
-            </div>
+    <!-- Video Section Start -->
+    <section class="video">
+      <div class="container">
+        <div class="flex border-bottom-gray gap-29 align-center">
+          <p class="font-30 font-weight-700">3)</p>
+          <video width="317" height="235" controls>
+            <source src="./assets/video/video.mp4" type="video/mp4" />
+          </video>
         </div>
-        <hr class="line-1">
+      </div>
     </section>
+    <!-- Video Section End -->
 
-    <section>
-        <div class="flex">
-            <p class="number">5)</p>
-            <div class="new" style="padding: 58px 0px;">
-                <table border="1 solid black">
-                    <tr>
-                      <th>Company</th>
-                      <th>Contact</th> 
-                      <th>Country</th>
-                    </tr>
-                    <tr>
-                      <td>Lorem ipsum</td>
-                      <td>sed quia consequuntur</td>
-                      <td>USA</td>
-                    </tr>
-                    <tr>
-                      <td>Lorem ipsum dolor </td>
-                      <td>commodi consequatur</td>
-                      <td>Mexico</td>
-                    </tr>
-                  </table>
-            </div>
+    <!-- Iframe Section Start -->
+    <section class="iframe">
+      <div class="container">
+        <div class="flex border-bottom-gray gap-29">
+          <p class="font-30 font-weight-700">4)</p>
+          <iframe
+            class="frame"
+            loading="lazy"
+            allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2965.0824050173574!2d-93.63905729999999!3d41.998507000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sWebFilings%2C+University+Boulevard%2C+Ames%2C+IA!5e0!3m2!1sen!2sus!4v1390839289319"
+            width="622"
+            height="249"
+          >
+          </iframe>
         </div>
-        <hr class="line-1">
+      </div>
     </section>
+    <!-- Iframe Section End -->
 
-    <section>
-        <div class="flex">
-            <p class="number">6)</p>
-            <div class="new" style="padding: 58px 0px;">
-                
-               <form>
-                    <div>
-                        <label>First Name: </label>
-                        <input type="text"placeholder="First Name">
-                    </div>
-                  <div>
-                    <label>Middle Name: </label>
-                    <input type="text"placeholder="Middle Name">
-                  </div>
-                  <div>
-                    <label>Last Name: </label>
-                    <input type="text"placeholder="Last Name">
-                  </div>
-                    
-                    <label>Middle Name: </label>
-                    <input type="text" placeholder="Middle Name"><br>
-                    <label>Last Name: </label>
-                    <input type="text"placeholder="Last Name"><br>
-                    <label>Email Id: </label>
-                    <input type="email"placeholder="Email Id"><br>
-                    <label>Mobile Number: </label>
-                    <input type="text" placeholder="Mobile Number"><br>
-                    <label>Date: </label>
-                    <input type="date"><br>
-                    <label>Date & Time: </label>
-                    <input type="datetime-local"><br>
-                    <label>Gender: </label>
-                    <input type="radio" id="male" name="Gender" value="male">
-                    <label for="male" class="gender">Male</label>
-                    <input type="radio" id="female" name="Gender" value="gender">
-                    <label for="female" class="gender">Female</label><br>
-                    <label for="city">Select City:</label>
-                    <select name="city" id="city">
-                    <option value="value" selected>--Select City--</option>
-                      <option value="ahm">Ahmedabad</option>
-                      <option value="srt">Surat</option>
-                      <option value="rajkt">Rajkot</option>
-                      <option value="vad">Vadodra</option>
-                    </select><br>
-                    <label>Languages: </label>
-                    <input type="radio" id="eng" name="lang" value="english">
-                    <label for="eng" class="gender">English</label>
-                    <input type="radio" id="guj" name="lang" value="gujarati">
-                    <label for="guj" class="gender">Gujarati</label>
-                    <input type="radio" id="hn" name="lang" value="hindi">
-                    <label for="hn" class="gender">Hindi</label><br>
-
-                    <label>Folder: </label>
-                    <input type="file"><br>
-
-                    <label>Password: </label>
-                    <input type="password"><br>
-
-                    <label>Color: </label>
-                    <input type="color"><br>
-
-                    <label>Range: </label>
-                    <input type="range" id="vol" name="vol" min="0" max="50"><br>
-
-                    <input type="submit" value="Submit" style="width: 99px;height: 44px;background:black;color:white;margin-right: 10px;margin-left: 60px;margin-top: 20px;"> <input type="Reset" value="Reset" style="width: 99px;height: 44px;background:black;color:white">
-               </form>
-            </div>
+    <!-- Table Section Start-->
+    <section class="tbl">
+      <div class="container">
+        <div class="flex border-bottom-gray gap-29">
+          <p class="font-30 font-weight-700">5)</p>
+          <div class="w-100">
+            <table class="table">
+              <tbody>
+                <tr>
+                  <th class="font-weight-700 lh-21">Company</th>
+                  <th class="font-weight-700 lh-21">Contact</th>
+                  <th class="font-weight-700 lh-21">Country</th>
+                </tr>
+                <tr>
+                  <td class="font-14 font-weight-700">Lorem ipsum</td>
+                  <td class="font-14 font-weight-700">sed quia consequuntur</td>
+                  <td class="font-14 font-weight-700">USA</td>
+                </tr>
+                <tr>
+                  <td class="font-14 font-weight-700">Lorem ipsum dolor</td>
+                  <td class="font-14 font-weight-700">commodi consequatur</td>
+                  <td class="font-14 font-weight-700">Mexico</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
-        <hr class="line-1">
+      </div>
     </section>
+    <!-- Table Section End -->
 
-    <section>
-        <div class="flex">
-            <p class="number">5)</p>
-            <div class="new" style="padding: 58px 0px;">
-                <table border="1 solid black" style="width: 990px;height:46px;">
-                    <tr>
-                      <th>Company</th>
-                      <th>Contact</th> 
-                      <th>Country</th>
-                    </tr>
-                  </table>
+    <!-- Form Section Start -->
+    <section class="user-form">
+      <div class="container">
+        <div class="flex border-bottom-gray gap-29">
+          <p class="font-30 font-weight-700">6)</p>
+          <form action="#" method="post" class="w-100 flex flex-dir-col gap-20">
+            <div class="flex align-center gap-10 w-50">
+              <label for="name" class="font-weight-700 w-30">First Name:</label>
+              <input
+                class="border-input w-40 p-10"
+                type="text"
+                name="name"
+                placeholder="First Name"
+              />
             </div>
+            <div class="flex align-center gap-10 w-50">
+              <label for="mname" class="font-weight-700 w-30"
+                >Middle Name:</label
+              >
+              <input
+                class="border-input w-40 p-10"
+                type="text"
+                name="mname"
+                placeholder="Middle Name"
+              />
+            </div>
+            <div class="flex align-center gap-10 w-50">
+              <label for="lname" class="font-weight-700 w-30">Last Name:</label>
+              <input
+                class="border-input w-40 p-10"
+                type="text"
+                name="lname"
+                placeholder="Last Name"
+              />
+            </div>
+            <div class="flex align-center gap-10 w-50">
+              <label for="email" class="font-weight-700 w-30">Email Id:</label>
+              <input
+                class="border-input w-40 p-10"
+                type="email"
+                name="email"
+                placeholder="Email Id"
+              />
+            </div>
+            <div class="flex align-center gap-10 w-50">
+              <label for="mobile" class="font-weight-700 w-30"
+                >Mobile Number:</label
+              >
+              <input
+                class="border-input w-40 p-10"
+                type="text"
+                name="mobile"
+                placeholder="Mobile Number"
+              />
+            </div>
+            <div class="flex align-center gap-10 w-50">
+              <label for="date" class="font-weight-700 w-30">Date:</label>
+              <input
+                class="border-input w-40 txt-gray"
+                type="date"
+                name="date"
+                placeholder="dd-mm-yyyy"
+              />
+            </div>
+            <div class="flex align-center gap-10 w-50">
+              <label for="datetime" class="font-weight-700 w-30"
+                >Date & Time:</label
+              >
+              <input
+                class="border-input w-40 txt-gray"
+                type="datetime-local"
+                name="datetime"
+                placeholder="dd-mm-yyyy--:--"
+              />
+            </div>
+            <div class="flex align-center gap-10 w-50">
+              <label for="gender" class="font-weight-700 w-30">Gender:</label>
+              <input class="border-input w-40" type="radio" name="gender" />
+              <span class="txt-gray ml-10">Male</span>
+              <input
+                class="border-input w-40 ml-20"
+                type="radio"
+                name="gender"
+              />
+              <span class="txt-gray ml-10">Female</span>
+            </div>
+            <div class="flex align-center gap-10 w-50">
+              <label for="name" class="font-weight-700 w-30"
+                >Select City:</label
+              >
+              <select class="bg-input" name="city" id="city">
+                <option value="" selected>--Select City--</option>
+                <option value="">Ahmedabad</option>
+                <option value="">Ahmedabad</option>
+                <option value="">Ahmedabad</option>
+                <option value="">Ahmedabad</option>
+              </select>
+            </div>
+            <div class="flex align-center gap-10 w-50">
+              <label for="name" class="font-weight-700 w-30">Languages:</label>
+              <input class="w-40" type="radio" name="name" /><span
+                class="txt-gray ml-10"
+                >English</span
+              >
+              <input class="w-40 ml-20" type="radio" name="name" /><span
+                class="txt-gray ml-10"
+                >Gujarati</span
+              >
+              <input class="w-40 ml-20" type="radio" name="name" /><span
+                class="txt-gray ml-10"
+                >Hindi</span
+              >
+            </div>
+            <div class="flex align-center gap-10 w-50">
+              <label for="name" class="font-weight-700 w-30">Folder:</label>
+              <input class="w-40" type="file" name="name" />
+            </div>
+            <div class="flex align-center gap-10 w-50">
+              <label for="name" class="font-weight-700 w-30">Password:</label>
+              <input class="w-40 bg-input" type="password" name="name" />
+            </div>
+            <div class="flex align-center gap-10 w-50">
+              <label for="name" class="font-weight-700 w-30">Color:</label>
+              <input class="w-40" type="color" />
+            </div>
+            <div class="flex align-center gap-10 w-50">
+              <label for="name" class="font-weight-700 w-30">Range:</label>
+              <input
+                class="w-40"
+                type="range"
+                name="name"
+                placeholder="First Name"
+              />
+            </div>
+
+            <div class="flex gap-5 pt-40">
+              <button class="btn-submit bg-btn-primary" type="submit">
+                Submit
+              </button>
+              <button class="btn-submit bg-btn-primary" type="reset">
+                Reset
+              </button>
+            </div>
+          </form>
         </div>
-        <hr class="line-1">
+      </div>
     </section>
-</body>
+    <!-- Form Section End -->
+
+    <!-- Table Section Start -->
+    <section class="tbl2">
+      <div class="container">
+        <div class="flex border-bottom-gray gap-29">
+          <p class="font-30 font-weight-700">7)</p>
+          <div class="w-100">
+            <table class="table">
+              <tbody>
+                <tr>
+                  <th class="font-weight-700 lh-21">Company</th>
+                  <th class="font-weight-700 lh-21">Contact</th>
+                  <th class="font-weight-700 lh-21">Country</th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Table Section End -->
+  </body>
 </html>
