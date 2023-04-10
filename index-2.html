@@ -11,7 +11,7 @@
     <!-- Header Section Start -->
     <header class="bg-primary">
       <h1
-        class="txt-secondary font-38 txt-decoration-underline txt-align-center py-30"
+        class="txt-secondary font-38 txt-decoration-underline txt-align-center py-30 font-weight-700"
       >
         HTML TUTORIAL
       </h1>
@@ -181,7 +181,7 @@
               <label class="font-weight-700 w-30">Mobile Number:</label>
               <input
                 class="border-input w-40 p-10"
-                type="text"
+                type="number"
                 name="mobile"
                 placeholder="Mobile Number"
               />
@@ -204,14 +204,20 @@
             </div>
             <div class="flex align-center gap-10 w-50 px-10">
               <label class="font-weight-700 w-30">Gender:</label>
-              <input class="border-input w-40" type="radio" name="gender" />
-              <span class="txt-gray ml-10">Male</span>
+              <input
+                id="male"
+                class="border-input w-40"
+                type="radio"
+                name="gender"
+              />
+              <label for="male" class="txt-gray ml-10">Male</label>
               <input
                 class="border-input w-40 ml-20"
                 type="radio"
                 name="gender"
+                id="female"
               />
-              <span class="txt-gray ml-10">Female</span>
+              <label for="female" class="txt-gray ml-10">Female</label>
             </div>
             <div class="flex align-center gap-10 w-50 px-10">
               <label class="font-weight-700 w-30">Select City:</label>
@@ -225,21 +231,26 @@
             </div>
             <div class="flex align-center gap-10 w-50 px-10">
               <label class="font-weight-700 w-30">Languages:</label>
-              <input class="w-40" type="radio" name="name" /><span
+              <input id="eng" class="w-40" type="radio" name="name" /><label
+                for="eng"
                 class="txt-gray ml-10"
-                >English</span
+                >English</label
               >
-              <input class="w-40 ml-20" type="radio" name="name" /><span
-                class="txt-gray ml-10"
-                >Gujarati</span
-              >
-              <input class="w-40 ml-20" type="radio" name="name" /><span
-                class="txt-gray ml-10"
-                >Hindi</span
-              >
+              <input
+                id="guj"
+                class="w-40 ml-20"
+                type="radio"
+                name="name"
+              /><label for="guj" class="txt-gray ml-10">Gujarati</label>
+              <input
+                id="hindi"
+                class="w-40 ml-20"
+                type="radio"
+                name="name"
+              /><label for="hindi" class="txt-gray ml-10">Hindi</label>
             </div>
             <div class="flex align-center gap-10 w-50 px-10">
-              <span class="font-weight-700 w-30">Folder:</span>
+              <label for="folder" class="font-weight-700 w-30">Folder:</label>
               <label class="custom-file-upload">
                 <input id="file-upload" type="file" />
                 Choose File

@@ -56,7 +56,7 @@ q:before, q:after {
 
 
 body {
-    font-family: 'Arial';
+    font-family: 'Arial', sans-serif;
     font-size: 18px;
 }
 
@@ -286,7 +286,7 @@ img {
 /* table */
 
 table {
-    max-width: 990px;
+    max-width: 95%;
     width: 100%;
     height: auto;
 }
@@ -308,25 +308,25 @@ td {
 /* Form */
 
 
-.user-form input[type=text], [type=email] {
-    width: 276px;
+.user-form input[type=text], .user-form input[type=email], .user-form input[type=number] {
+    width: 50%;
     height: auto;
 }
 
-.user-form [type=date], [type=datetime-local], select {
-    width: 180px;
+.user-form input[type=date], .user-form input[type=datetime-local], .user-form select {
+    width: 34%;
     height: 36px;
     font-size: 18px;
 }
 
-.user-form [type=password] {
-    width: 131px;
+.user-form input[type=password] {
+    width: 25%;
     height: 26px;
     border: none;
 }
 
-.user-form [type=color] {
-    width: 71px;
+.user-form input[type=color] {
+    width: 14%;
 }
 
 .user-form input::placeholder {
