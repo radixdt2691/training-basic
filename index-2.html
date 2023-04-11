@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Basics-2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <link rel="stylesheet" href="./assets/css/style2.css" />
   </head>
   <body>
@@ -19,7 +20,7 @@
     <!-- Header Section End-->
 
     <!-- List Section Start -->
-    <section class="list pt-30">
+    <section class="pt-30">
       <div class="container">
         <div class="flex gap-80 border-bottom-gray pt-60">
           <p class="font-30 font-weight-700">1)</p>
@@ -59,7 +60,7 @@
     <!-- List Section End -->
 
     <!-- Audio Section Start -->
-    <section class="audio">
+    <section>
       <div class="container">
         <div class="flex border-bottom-gray gap-29 align-center">
           <p class="font-30 font-weight-700">2)</p>
@@ -72,7 +73,7 @@
     <!-- Audio Section End -->
 
     <!-- Video Section Start -->
-    <section class="video">
+    <section>
       <div class="container">
         <div class="flex border-bottom-gray gap-29 align-center">
           <p class="font-30 font-weight-700">3)</p>
@@ -85,7 +86,7 @@
     <!-- Video Section End -->
 
     <!-- Iframe Section Start -->
-    <section class="iframe">
+    <section>
       <div class="container">
         <div class="flex border-bottom-gray gap-29">
           <p class="font-30 font-weight-700">4)</p>
@@ -105,12 +106,12 @@
     <!-- Iframe Section End -->
 
     <!-- Table Section Start-->
-    <section class="tbl">
+    <section>
       <div class="container">
         <div class="flex border-bottom-gray gap-29">
           <p class="font-30 font-weight-700">5)</p>
           <div class="w-100">
-            <table class="table">
+            <table>
               <tbody>
                 <tr>
                   <th class="font-weight-700 lh-21 w-50">Company</th>
@@ -231,34 +232,33 @@
             </div>
             <div class="flex align-center gap-10 w-50 px-10">
               <label class="font-weight-700 w-30">Languages:</label>
-              <input id="eng" class="w-40" type="radio" name="name" /><label
+              <input id="eng" class="w-40" type="radio" /><label
                 for="eng"
                 class="txt-gray ml-10"
                 >English</label
               >
-              <input
-                id="guj"
-                class="w-40 ml-20"
-                type="radio"
-                name="name"
-              /><label for="guj" class="txt-gray ml-10">Gujarati</label>
-              <input
-                id="hindi"
-                class="w-40 ml-20"
-                type="radio"
-                name="name"
-              /><label for="hindi" class="txt-gray ml-10">Hindi</label>
+              <input id="guj" class="w-40 ml-20" type="radio" /><label
+                for="guj"
+                class="txt-gray ml-10"
+                >Gujarati</label
+              >
+              <input id="hindi" class="w-40 ml-20" type="radio" /><label
+                for="hindi"
+                class="txt-gray ml-10"
+                >Hindi</label
+              >
             </div>
             <div class="flex align-center gap-10 w-50 px-10">
-              <label for="folder" class="font-weight-700 w-30">Folder:</label>
+              <label for="file-upload" class="font-weight-700 w-30">Folder:</label>
               <label class="custom-file-upload">
                 <input id="file-upload" type="file" />
                 Choose File
               </label>
+              <span class="ml-10" id="file-chosen">No File Selected</span>
             </div>
             <div class="flex align-center gap-10 w-50">
               <label class="font-weight-700 w-30">Password:</label>
-              <input class="w-40 bg-input" type="password" name="name" />
+              <input class="w-40 bg-input" type="password" />
             </div>
             <div class="flex align-center gap-10 w-50 px-10">
               <label class="font-weight-700 w-30">Color:</label>
@@ -266,12 +266,7 @@
             </div>
             <div class="flex align-center gap-10 w-50 px-10">
               <label class="font-weight-700 w-30">Range:</label>
-              <input
-                class="w-40"
-                type="range"
-                name="name"
-                placeholder="First Name"
-              />
+              <input class="w-40" type="range" />
             </div>
 
             <div class="flex gap-5">
@@ -294,7 +289,7 @@
         <div class="flex border-bottom-gray gap-29">
           <p class="font-30 font-weight-700">7)</p>
           <div class="w-100">
-            <table class="table">
+            <table>
               <tbody>
                 <tr>
                   <th class="font-weight-700 lh-21 w-50">Company</th>
@@ -308,5 +303,15 @@
       </div>
     </section>
     <!-- Table Section End -->
+
+    <script>
+      const actualBtn = document.getElementById("file-upload");
+
+      const fileChosen = document.getElementById("file-chosen");
+
+      actualBtn.addEventListener("change", function () {
+        fileChosen.textContent = this.files[0].name;
+      });
+    </script>
   </body>
 </html>
