@@ -290,7 +290,6 @@ td {
 
 .user-form input[type=date], .user-form input[type=datetime-local], .user-form select {
     width: 34%;
-    height: 36px;
     font-size: 18px;
     padding: 0 10px;
 }
@@ -298,7 +297,6 @@ td {
 .user-form input[type=password] {
     width: 25%;
     font-size: 18px;
-    height: 26px;
     border: none;
 }
 
@@ -341,7 +339,6 @@ input[type="file"] {
 /* Header Section */
 header {
     width: 100%;
-    height: 103px;
 }
 
 /* List Section */
